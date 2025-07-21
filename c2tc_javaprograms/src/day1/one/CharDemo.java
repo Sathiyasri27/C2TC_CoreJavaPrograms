@@ -13,8 +13,6 @@ public class CharDemo {
 		System.out.println(ch);
 		char var2 = '\u20AC';
 		System.out.println(var2);
-		
-
 	}
 
 }
