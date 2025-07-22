@@ -5,8 +5,7 @@ public class StudentDetails {
 	private String name;
 	private String department;
 
-	public StudentDetails() {
-	}
+	public StudentDetails() {}
 
 	public StudentDetails(int id, String name, String department) {
 		this.id = id;
