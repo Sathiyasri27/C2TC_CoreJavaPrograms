@@ -1,7 +1,7 @@
 package day2;
 import java.util.Scanner;
 
-public class scannerdemo {
+public class opdemo {
 
 	public static void main(String[] args) {
 		Scanner input= new Scanner(System.in);
