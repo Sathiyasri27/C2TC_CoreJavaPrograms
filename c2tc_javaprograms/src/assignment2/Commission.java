@@ -6,13 +6,9 @@ class Student {
      System.out.println("Student object is created");
  }
 }
-
-
 public class Commission extends Student {
-
  String name, address, phone;
  double salesAmount;
-
  public void acceptDetails() {
      Scanner sc = new Scanner(System.in);
      System.out.print("Enter Name: ");
@@ -24,10 +20,8 @@ public class Commission extends Student {
      System.out.print("Enter Sales Amount: ");
      salesAmount = sc.nextDouble();
  }
-
  public void calculateCommission() {
      double commission;
-
      if (salesAmount >= 100000) {
          commission = salesAmount * 0.10;
      } else if (salesAmount >= 50000) {
@@ -37,18 +31,14 @@ public class Commission extends Student {
      } else {
          commission = 0;
      }
-
      System.out.println("\n--- Commission Details ---");
      System.out.println("Name       : " + name);
      System.out.println("Sales Amt  : ₹" + salesAmount);
      System.out.println("Commission : ₹" + commission);
  }
-
  public static void main(String[] args) {
      Commission emp = new Commission(); 
      emp.acceptDetails();               
      emp.calculateCommission();      
  }
 }
-
-
