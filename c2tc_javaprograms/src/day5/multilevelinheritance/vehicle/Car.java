@@ -1,7 +1,7 @@
 package day5.multilevelinheritance.vehicle;
 
-public class car {
-	public car() {
+public class Car {
+	public Car() {
 		System.out.println("Class Car");
 	}
 
