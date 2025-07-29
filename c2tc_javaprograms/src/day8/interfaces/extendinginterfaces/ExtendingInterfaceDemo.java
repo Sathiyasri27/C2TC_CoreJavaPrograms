@@ -1,4 +1,4 @@
-package dayeight.interfaces.extendinginterfaces;
+package day8.interfaces.extendinginterfaces;
 
 public class ExtendingInterfaceDemo implements ChildInterface {
 	

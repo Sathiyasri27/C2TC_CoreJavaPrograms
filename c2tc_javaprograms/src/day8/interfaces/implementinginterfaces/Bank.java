@@ -1,4 +1,4 @@
-package dayeight.interfaces.implementinginterfaces;
+package day8.interfaces.implementinginterfaces;
 
 public interface Bank {
 	double MIN_BALANCE = 1000;

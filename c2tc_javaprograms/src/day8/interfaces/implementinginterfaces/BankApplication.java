@@ -1,4 +1,4 @@
-package dayeight.interfaces.implementinginterfaces;
+package day8.interfaces.implementinginterfaces;
 
 public class BankApplication {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package dayeight.interfaces.functionalinterfaces;
+package day8.interfaces.functionalinterfaces;
 
 @FunctionalInterface
 public interface GreetInterface {

@@ -1,4 +1,4 @@
-package dayeight.abstraction;
+package day8.abstraction;
 
 public class AbstractDemo {
 
