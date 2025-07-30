@@ -1,12 +1,12 @@
 package day8.interfaces.implementinginterfaces;
 
 public class Account {
-	private int accNo;
+	 private int accNo;
 	 private String name;
 	 private double balance;
-	 private String bank;
+	 private Bank bank;
 
-	 public Account(int accNo, String name, double balance, String  bank) {
+	 public Account(int accNo, String name, double balance, Bank bank) {
 	     this.accNo = accNo;
 	     this.name = name;
 	     this.balance = balance;
@@ -40,5 +40,22 @@ public class Account {
 	 
 	 public void setAccNo(int accNo) {
 		this.accNo = accNo;
+	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public void setBank(Bank bank) {
+		this.bank = bank;
+	}
+
+	@Override
+	 public String toString() {
+	     return "Account [accNo=" + accNo + ", name=" + name + ", balance=" + balance + "]";
+	 }
 }

@@ -1,6 +1,6 @@
 package day8.interfaces.implementinginterfaces;
 
-public class BankImpl implements Bank{
+public class BankImp implements Bank{
 	 @Override
 	 public void deposit(Account account, double amount) {
 		 if (amount > DEPOSIT_LIMIT)
