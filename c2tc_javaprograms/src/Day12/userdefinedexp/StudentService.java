@@ -1,4 +1,4 @@
-package Day12.uerdefinedexp;
+package Day12.userdefinedexp;
 
 public class StudentService {
 	public void setMarks(Student student, int[] marks) throws InvalidMarksException {

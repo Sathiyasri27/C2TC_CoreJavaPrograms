@@ -1,4 +1,4 @@
-package Day12.uerdefinedexp;
+package Day12.userdefinedexp;
 
 public class InvalidMarksException extends Exception{
 

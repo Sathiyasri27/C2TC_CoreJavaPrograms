@@ -1,4 +1,4 @@
-package Day12.uerdefinedexp;
+package Day12.userdefinedexp;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
