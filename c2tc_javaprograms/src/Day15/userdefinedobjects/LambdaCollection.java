@@ -7,7 +7,6 @@ import java.util.Comparator;
 public class LambdaCollection {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ArrayList<Integer> list = new ArrayList<>();
 		list.add(10);
 		list.add(70);

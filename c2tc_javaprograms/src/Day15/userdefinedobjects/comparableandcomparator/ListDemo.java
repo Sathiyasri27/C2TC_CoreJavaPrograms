@@ -8,7 +8,7 @@ import java.util.List;
 public class ListDemo {
 
 	public static void main(String[] args) {
-		// Adding User Defined objects into ArrayList
+
 		List<Student> studentList = new ArrayList<Student>();
 		Student s1 = new Student(11, "Pooja", 78);
 		studentList.add(s1);
@@ -23,13 +23,11 @@ public class ListDemo {
 		System.out.println("---------------Student Details Before Sorting-------------------");
 		System.out.println(studentList);
 
-		// Using Comparable interface
 		Collections.sort(studentList);
 
 		System.out.println("---------------Student Details After Sorting-------------------");
 		System.out.println(studentList);
 
-		// Adding Person objects into ArrayList
 		List<Person> personList = new ArrayList<Person>();
 		Person p1 = new Person("Abhijit", "Mumbai");
 		personList.add(p1);
@@ -45,7 +43,6 @@ public class ListDemo {
 
 		System.out.println("Person list is as follows\n" + personList);
 
-		// Using Comparator interface
 		System.out.println("---------------Person Details Before Sorting-------------------");
 		System.out.println(personList);
 
