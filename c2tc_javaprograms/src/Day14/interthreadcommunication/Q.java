@@ -10,7 +10,7 @@ public class Q {
 				wait();
 			} catch (Exception e) {
 				System.out.println(e);
-			}
+			}   
 		}
 		this.n = n;
 		valueSet = true;
