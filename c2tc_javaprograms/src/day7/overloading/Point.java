@@ -10,7 +10,7 @@ public class Point {
 	}
 
 	public Point(float x) {
-		this.x = x;
+		this.x = x; //it refers to the instance of class and the x value passes to the parameter
 		this.y = x;
 	}
 
